@@ -1,0 +1,50 @@
+$header_color: #8c19de;
+$primary_font_color: #343434;
+$container_width: 920px;
+$header_height: 75px;
+$break_small: 480px;
+$break_large: 860px;
+$border_color: #C9C9C9;
+$background_hover_color: #b275de;
+
+body
+{
+    color: $primary_font_color;
+    font-size: 14px;
+    line-height: 100%;
+    margin: 0px;
+}
+
+.header
+{
+    width: 100%;
+    background-color: $header_color;
+    height: $header_height;
+}
+
+.header-container
+{
+    width: $container_width;
+    margin: auto;
+    position: relative;
+    height: $header_height;
+    
+    h2
+    {
+        margin: 0px;
+        height: $header_height;
+        line-height: $header_height;
+        display: inline-block;
+    }
+}
+
+.container
+{
+    width: $container_width;
+    margin: auto;
+}
+
+/* IMPORTS */
+@import 'navigation';
+@import 'buttons';
+@import 'inputs';

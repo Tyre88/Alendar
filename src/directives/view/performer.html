@@ -1,0 +1,9 @@
+<div ui-sref="performer({ id:{{::performer.id}} })" class="performer" ng-repeat="performer in ngModel">
+    <img src="{{::performer.img}}" />
+    <div>
+        <span class="company">{{::performer.conpamyName}} - {{::performer.city}}</span>
+        <span class="name">{{::performer.name}}</span>
+        <span class="street">{{::performer.street}}</span>
+        <span class="city">{{::performer.city}}</span>
+    </div>
+</div>

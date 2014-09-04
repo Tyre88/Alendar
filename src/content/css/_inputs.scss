@@ -1,0 +1,28 @@
+textarea, 
+input
+{
+    outline: none; 
+}
+
+.input-w-icon
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    border: 1px solid $border_color;
+    border-radius: 5px;
+}
+
+.input-w-icon input
+{
+    border: none;
+}
+
+.input-field
+{
+    height: 25px;
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}

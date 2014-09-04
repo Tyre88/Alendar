@@ -1,0 +1,25 @@
+.header-navigation
+{
+    list-style: none;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 0;
+    height: $header_height;
+    line-height: $header_height;
+    
+    li
+    {
+        display: inline-block;
+        @media screen and (max-width: $break_large)
+        {
+            width: 100%;
+            display: block;
+        }
+    }
+    
+    li:nth-last-child(1)
+    {
+        margin-right: 20px;
+    }
+}

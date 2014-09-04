@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    </head>
+    <body ng-controller="application">
+        <div class="header">
+            <div class="header-container">
+                <a ui-sref="home"><h2 class="icon-calendar">{{::ApplicationName}}</h2></a>
+                <ul class="header-navigation">
+                    <li>
+                        <a class="button">Anslut verksamhet</a>
+                    </li>
+                    <li>
+                        <a class="button">Logga in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div ui-view></div>
+        </div>
+    </body>
+    <script src="dependencies/dependencyconfig.js"></script>
+    <script src="dependencies/require/require.min.js" data-main="bootstrap.js"></script>
+</html>
